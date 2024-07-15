@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu44mbq1dekvm"]
+
+[ext_resource type="Theme" uid="uid://ba0atw13ybg4a" path="res://main.tres" id="1_6mh4c"]
+
+[node name="CardUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 240.0
+offset_bottom = 360.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.14902, 0.278431, 0.188235, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_6mh4c")
+theme_override_font_sizes/font_size = 0
+text = "state"
+horizontal_alignment = 1
+vertical_alignment = 1
